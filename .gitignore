@@ -1,0 +1,37 @@
+# Visual Studio: archivos locales y caché
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python: archivos compilados y caché
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Variables de entorno y credenciales locales
+.env
+.env.*
+!.env.example
+
+# Copias automáticas de Jupyter
+.ipynb_checkpoints/
+
+# Registros y cachés de herramientas
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos generados por el sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# El código, los notebooks, requirements.txt y los CSV de dataset/
+# se mantienen disponibles para añadirlos al repositorio.
