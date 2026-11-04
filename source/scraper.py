@@ -80,6 +80,7 @@ for anio in anios:
         # La segunda columna contiene el título.
         enlace = celdas[1].find("a", href=True)
 
+        # Usamos urljoin por si nos encontramos enlaces relativos en alguna de las péliculas
         if enlace is not None:
             peliculas.append({
                 "titulo": enlace.get_text(strip=True),

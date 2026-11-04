@@ -1,4 +1,4 @@
-# Web scraping de películas en Wikipedia
+# Catálogo general de películas más taquilleras y sus características. 
 
 El programa recorre los listados de películas de mayor recaudación de Wikipedia en inglés entre 2000 y 2025. Después visita los artículos de las películas y guarda sus datos en un archivo CSV.
 
